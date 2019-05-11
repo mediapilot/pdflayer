@@ -1,0 +1,9 @@
+/.idea/
+/.bundle/
+/.ruby-version
+/.ruby-gemset
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
