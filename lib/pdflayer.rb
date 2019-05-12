@@ -50,7 +50,7 @@ module Pdflayer
             res.parsed_response
           else
             begin
-              File.open(options.export, 'a+') do |file|
+              File.open(options.export, 'ab+') do |file|
                 file.write(res.body)
                 {
                   success: true,

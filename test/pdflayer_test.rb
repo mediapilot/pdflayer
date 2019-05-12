@@ -28,6 +28,7 @@ class PdflayerTest < Minitest::Test
 
     assert response[:success]
     assert File.exist?(options.export)
+    refute File.zero?(options.export)
 
     File.unlink options.export
   end
